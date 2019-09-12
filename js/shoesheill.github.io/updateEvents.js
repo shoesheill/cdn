@@ -93,6 +93,7 @@ $(function() {
         var utc = d.getTime() + (d.getTimezoneOffset() * 60000);
         var nd = new Date(utc + (3600000 * offset));
         return nd;
+        // calcTime(new Date(), '+5.75');
     }
     let weekDay = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     let eventDay = "4/25/";
